@@ -10,6 +10,7 @@ use bkrukowski\TransparentEmail\Services\OutlookCom;
 use bkrukowski\TransparentEmail\Services\TlenPl;
 use bkrukowski\TransparentEmail\Services\Www33MailCom;
 use bkrukowski\TransparentEmail\Services\YahooCom;
+use bkrukowski\TransparentEmail\Services\YandexRu;
 
 class TransparentEmailFactory
 {
@@ -38,6 +39,7 @@ class TransparentEmailFactory
             Www33MailCom::class,
             TlenPl::class,
             AppsGoogleCom::class,
+            YandexRu::class
         ];
     }
 }
